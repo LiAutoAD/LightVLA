@@ -64,6 +64,7 @@ dependencies = [
     "uvicorn",
     "fastapi",
     "json-numpy",
+    "mujoco==3.3.3",
 ]
 
 [project.optional-dependencies]
