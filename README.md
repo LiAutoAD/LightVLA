@@ -4,6 +4,12 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+🌟 News
+-----
+
+- **[2026-01-31]** LightVLA has been accepted by **ICRA 2026**! 🎉
+
+
 ## 📝 Abstract
 
 **LightVLA** is an innovative, simple yet effective differentiable token pruning framework designed for **Vision-Language-Action (VLA)** models. While VLA models have demonstrated impressive capabilities in executing real-world robotic tasks, their deployment on resource-constrained platforms is often bottlenecked by the heavy attention-based computation over large sets of visual tokens. LightVLA addresses this challenge through **adaptive, performance-driven visual token pruning**: it generates dynamic queries to evaluate the importance of visual tokens and employs Gumbel softmax for differentiable token selection. Through fine-tuning, LightVLA learns to retain the most informative visual tokens while pruning those that do not contribute to task execution, thereby **simultaneously improving efficiency and performance**. Notably, LightVLA requires no heuristic magic numbers and introduces no additional trainable parameters, making it compatible with modern inference frameworks. Experimental results show that LightVLA outperforms various VLA models and existing token pruning methods across diverse tasks on the LIBERO benchmark, achieving higher success rates with significantly reduced computational overhead. Specifically, LightVLA reduces FLOPs and latency by 59.1% and 38.2% respectively, with a 2.6% improvement in task success rate.
